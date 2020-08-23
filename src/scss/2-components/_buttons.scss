@@ -1,0 +1,27 @@
+.btn-primary {
+  background-color: $accent;
+  color: white;
+  padding: 0.6rem 1.5rem;
+  &:hover {
+    background-color: darken($color: $accent, $amount: 10);
+  }
+  &:active {
+    color: $dark2;
+  }
+}
+.btn-secondary {
+  margin-top: 3em;
+  padding: 5px 16px;
+  font-size: 1.5rem;
+  background-color: inherit;
+  border: 2px solid white;
+  color: white;
+
+  &:hover {
+    color: $accent;
+    border-color: $accent;
+  }
+  &:active {
+    color: $dark2;
+  }
+}
