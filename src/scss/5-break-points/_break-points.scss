@@ -1,0 +1,203 @@
+@media (max-width: 1222px) {
+  h1 {
+    font-size: 3rem;
+  }
+  .hero button {
+    padding: 5px 14px;
+  }
+  .facility h1 {
+    font-size: 2.5rem;
+  }
+  .venue-one,
+  .venue-two {
+    height: 240px;
+  }
+}
+@media (max-width: 1070px) {
+  h1 {
+    font-size: 2.7rem;
+  }
+  .hero button {
+    font-size: 1rem;
+    padding: 5px 14px;
+  }
+  .facility h1 {
+    font-size: 2.5rem;
+  }
+  .controls {
+    padding: 8px;
+    right: 2rem;
+  }
+  .venue-one,
+  .venue-two {
+    height: 230px;
+  }
+}
+@media (min-width: 800px) and (max-width: 900px) {
+  * {
+    font-size: 0.95em;
+  }
+  h1 {
+    font-size: 2.2rem;
+  }
+  .navigation-panel li {
+    font-size: 1rem;
+  }
+  .controls {
+    width: 140px;
+    padding: 8px;
+    right: 2rem;
+  }
+  .controls ion-icon {
+    width: 40px;
+    height: 40px;
+  }
+  .venue-one,
+  .venue-two {
+    height: 220px;
+  }
+}
+@media (max-width: 800px) {
+  * {
+    font-size: 0.9em;
+  }
+  h1 {
+    font-size: 2rem;
+    margin-left: -1px;
+  }
+  .navigation-panel li {
+    margin-left: 0.8rem;
+  }
+  .controls {
+    width: 120px;
+    padding: 8px;
+    right: 2rem;
+  }
+  .controls ion-icon {
+    width: 30px;
+    height: 30px;
+  }
+  .section-three {
+    gap: 1rem;
+  }
+  .venue-one,
+  .venue-two {
+    height: 200px;
+  }
+  .introduction p {
+    font-size: 1.1rem;
+    padding-right: 1rem;
+  }
+  .section-three p {
+    font-size: 1rem;
+  }
+  footer * {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  * {
+    font-size: 0.7em;
+  }
+  .card {
+    height: 200px;
+  }
+  .controls {
+    display: none;
+  }
+  .introduction .logo {
+    width: 77px;
+  }
+  .venue-one,
+  .venue-two {
+    height: 150px;
+  }
+  section {
+    grid-template-columns: minmax(20px, 1fr) repeat(8, minmax(20px, 115px)) minmax(
+        20px,
+        1fr
+      );
+  }
+}
+
+@media (max-width: 530px) {
+  .landing-page,
+  .light-gray,
+  .facility {
+    display: none;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  .welcome {
+    grid-column: 1/-1;
+  }
+  .welcome h2,
+  .welcome p {
+    width: 200px;
+  }
+  .btn-secondary {
+    width: 100px;
+  }
+  .section-three {
+    gap: 0rem;
+  }
+  .venue-one,
+  .venue-two {
+    height: 140px;
+    margin: 1rem 0;
+  }
+  .introduction,
+  .contact,
+  .top-left,
+  .top-right,
+  .bottom-left,
+  .bottom-right,
+  .venue-one,
+  .venue-two {
+    grid-column: 3 /-3;
+  }
+  .bottom-right {
+    grid-row: 3 / 4;
+  }
+  .bottom-left {
+    height: 200px;
+
+    h2 {
+      text-align: left;
+    }
+  }
+  .contact {
+    padding-left: 0;
+    padding-top: 0;
+  }
+  footer {
+    flex-direction: column;
+
+    .contacts,
+    .follow-us {
+      width: 100%;
+    }
+  }
+}
+@media (max-width: 370px) {
+  .introduction,
+  .contact,
+  .top-left,
+  .top-right,
+  .bottom-left,
+  .bottom-right,
+  .venue-one,
+  .venue-two,
+  .section-three p {
+    grid-column: 2 / -2;
+  }
+
+  .top-left,
+  .top-right,
+  .bottom-left,
+  .bottom-right {
+    padding: 1rem 0;
+  }
+}

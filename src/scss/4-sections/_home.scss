@@ -1,0 +1,111 @@
+header {
+  background-color: $dark1;
+}
+.welcome {
+  padding: 2rem;
+  height: 80vh;
+  nav {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-bottom: 5em;
+    cursor: pointer;
+  }
+}
+.hero {
+  justify-self: flex-end;
+}
+h2 {
+  font-size: 1.6rem;
+  font-weight: lighter;
+  color: $accent;
+}
+h1 {
+  padding: 10px 0;
+  margin-left: -4px;
+  font-size: 4rem;
+  color: $accent;
+  font-weight: 600;
+}
+.welcome p {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.menu {
+  font-size: 2rem;
+  color: white;
+}
+.landing-page {
+  background-image: url(/img/DOMICILE.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  .navigation-panel {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    margin-top: 1.25rem;
+    width: 100%;
+    display: flex;
+  }
+  li {
+    margin-left: 2rem;
+    font-size: 1.2rem !important;
+    color: white;
+    cursor: pointer;
+    &:hover {
+      color: $accent;
+    }
+  }
+  .high-light {
+    color: $accent;
+  }
+}
+.light-gray {
+  background-color: $dark2;
+  position: relative;
+}
+.controls {
+  position: absolute;
+  top: -50px;
+  right: 60px;
+  background-color: $accent;
+  box-shadow: 10px 10px 30px black;
+  width: 170px;
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  color: $dark2;
+
+  ion-icon {
+    font-size: 50px;
+    &:hover {
+      color: white;
+    }
+    &:active {
+      color: $dark2;
+    }
+  }
+}
+
+.facility {
+  grid-column: 4 / -2;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+
+  h1 {
+    font-size: 3rem;
+    padding-left: 2rem;
+    font-weight: 400;
+    color: $dark2;
+  }
+}
+.details {
+  span {
+    font-size: 1.2rem;
+    color: white;
+    margin-left: 1rem;
+  }
+}

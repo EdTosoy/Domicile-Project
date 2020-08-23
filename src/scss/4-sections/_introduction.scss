@@ -1,0 +1,59 @@
+.introduction {
+  padding: 5rem 0;
+
+  .logo {
+    width: 120px;
+  }
+  h2 {
+    font-size: 1.7rem;
+    color: $dark1;
+    margin: 1rem 0;
+  }
+  p {
+    font-size: 1.2rem;
+    color: $dark2;
+    padding-right: 4rem;
+  }
+}
+.contact {
+  grid-column: 6 / -2;
+  padding: 5rem 0 5rem 2rem;
+  h2 {
+    color: black;
+  }
+}
+form {
+  background-color: $dark1;
+  padding: 2rem;
+  margin-top: 0.7rem;
+  box-shadow: 10px 10px 15px $dark2;
+}
+.row {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem 0;
+}
+label {
+  color: $light;
+}
+input {
+  padding: 5px 0;
+  font-size: 1.2rem;
+  background-color: inherit;
+  color: white;
+  border: none;
+  border-bottom: 2px solid $dark2;
+
+  &:focus {
+    border-color: gray;
+  }
+}
+
+.gray {
+  height: 40px;
+  background-color: $dark1;
+  box-shadow: 10px 10px 15px $dark1;
+}
+.white {
+  height: 40px;
+}

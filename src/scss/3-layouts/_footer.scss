@@ -1,0 +1,45 @@
+footer {
+  padding: 3rem;
+  background-color: $dark1;
+  display: flex;
+  justify-content: space-around;
+  .contacts {
+    width: 50%;
+  }
+  h2 {
+    margin-bottom: 0.8rem;
+  }
+  p {
+    color: $light;
+  }
+  h5 {
+    margin-top: 1rem;
+    color: gray;
+    font-weight: 100;
+  }
+  .follow-us {
+    width: 50%;
+  }
+  .social-accounts {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  ul {
+    display: flex;
+    color: white;
+  }
+  li {
+    font-size: 2rem;
+    margin-left: 1rem;
+    &:hover {
+      color: $accent;
+    }
+  }
+  .email {
+    display: flex;
+  }
+  input {
+    flex-grow: 1;
+  }
+}

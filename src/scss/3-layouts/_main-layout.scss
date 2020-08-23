@@ -1,0 +1,41 @@
+header,
+section {
+  display: grid;
+  grid-template-columns:
+    minmax(50px, 1fr) repeat(8, minmax(20px, 115px))
+    minmax(50px, 1fr);
+}
+
+.welcome {
+  grid-column: 1 / span 3;
+}
+.landing-page {
+  grid-column: 4/-1;
+}
+.light-gray {
+  grid-column: 1 / 4;
+}
+.facilities {
+  grid-column: 4 / -2;
+}
+.introduction {
+  grid-column: 2 / 6;
+}
+.gray {
+  grid-column: 1 / 6;
+}
+.white {
+  grid-column: 6 / -1;
+}
+.top-left {
+  grid-column: 2 / 6;
+}
+.top-right {
+  grid-column: 6 / -2;
+}
+.bottom-right {
+  grid-column: 6 / -2;
+}
+.bottom-left {
+  grid-column: 2 / 6;
+}
