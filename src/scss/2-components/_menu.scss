@@ -1,0 +1,29 @@
+.menu-panel {
+  z-index: 10000;
+  width: 200px;
+  height: 100vh;
+  display: none;
+  position: fixed;
+  padding: 5rem 1rem;
+  top: 0;
+  right: 100%;
+  background-color: #111111;
+  li {
+    padding: 1rem 2rem;
+  }
+  li a {
+    font-size: 16px;
+  }
+  transition: transform 0.2s;
+  -webkit-transition: transform 0.2s;
+  -moz-transition: transform 0.2s;
+  -ms-transition: transform 0.2s;
+  -o-transition: transform 0.2s;
+}
+.open-menu {
+  transform: translate(200px);
+  -webkit-transform: translate(200px);
+  -moz-transform: translate(200px);
+  -ms-transform: translate(200px);
+  -o-transform: translate(200px);
+}

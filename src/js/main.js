@@ -1,2 +1,3 @@
-import "./dom.js";
-import "../scss/main.scss";
+import "./dom";
+import "./menu";
+import "/scss/main.scss";

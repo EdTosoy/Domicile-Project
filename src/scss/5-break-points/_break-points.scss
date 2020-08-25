@@ -180,6 +180,12 @@
       width: 100%;
     }
   }
+  .menu {
+    display: block;
+  }
+  .menu-panel {
+    display: block !important;
+  }
 }
 @media (max-width: 370px) {
   .introduction,
