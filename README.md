@@ -2,7 +2,7 @@
   DOMICILE 
 </h1>
 <p align="center">
-  Showcase-like Website for Luxurious Class Hotel named DOMICILE, it informs the users and  encourages to book rooms in there hotel. It is build with HTML5, SCSS(CSS), JavaScript, Firebase, Parcel as bundler, and Scroll Out for  scroll animations.
+  Showcase-like Website for Luxurious Class Hotel named DOMICILE, it informs the users and  encourages to book rooms in there hotel. It is built with HTML5, SCSS(CSS), JavaScript, Firebase, Parcel as bundler, and Scroll Out for  scroll animations.
 </p>
 
 ![demo](https://raw.githubusercontent.com/EdTosoy/Domicile-Project/master/src/img/Demo.png)
